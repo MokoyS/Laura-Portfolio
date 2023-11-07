@@ -1,0 +1,73 @@
+main {
+    color: black;
+    list-style-type: none;
+    height: auto;
+
+    
+}
+.maintext {
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+}
+
+.abouttext {
+    position: absolute;
+    width: 100%;
+    line-height: 1.1;
+    
+}
+.abouttext div {
+    width: 100%;
+}
+.abouttext h1 {
+    text-align:center;
+    font-size: 65px;
+    font-weight: 400;   
+}
+
+.contacttext p {
+    text-align:center;
+    font-size: 40px;
+}
+
+
+.text {
+
+    position:absolute;
+    margin-top:-350px;
+    margin-left: 650px;
+    
+}
+
+.content-contact {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h1{
+    font-size: 35px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+@media (max-width:1080px) {
+
+    .maintext {
+        margin-top: 185px;
+    }
+
+}
+
+

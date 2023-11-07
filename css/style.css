@@ -1,0 +1,58 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(slideshow.css);
+@import url(slider.css);
+@import url(index.css);
+@import url(desc.css);
+@font-face {
+    font-family: "EditorialNewLight";
+    src: url('EditorialNew-Light.ttf');
+}
+
+@font-face {
+    font-family: "EditorialNewItalic";
+    src: url('EditorialNew-UltralightItalic.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'EditorialNewItalic';
+}
+
+html {
+    color: black;
+    height: 100%;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+li {
+    font-size: 20px;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    z-index: -10;
+    padding: 0;
+    margin: 0;
+}
+

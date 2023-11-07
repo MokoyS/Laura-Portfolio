@@ -1,0 +1,42 @@
+header {
+    z-index: 10;
+}
+
+header nav ul  {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    list-style-type: none;
+    z-index: 10;
+
+    
+}
+.index {
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.index:hover {
+    border-bottom: 1px solid black;
+}
+
+.about {
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+} 
+
+.about:hover {
+    border-bottom: 1px solid black;
+}
+
+header a {
+    font-size: 20px;
+}
+
+.header {
+    position:absolute;
+    z-index: 10;
+    width: 100%;
+}

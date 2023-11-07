@@ -1,0 +1,38 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw; 
+}
+
+.footerprojets {
+    position: relative !important;
+    bottom: auto !important;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-left {
+    text-align: left;
+    margin-left: 30px; 
+}
+
+.footer-right {
+    text-align: right;
+    margin-right: 30px;
+}
+
+footer p {
+    font-size: 20px;
+}
+

@@ -1,0 +1,31 @@
+.desc {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 44px;
+    margin: auto;
+}
+
+.desc li{
+    font-size: 15px;
+    padding: 0 10px;
+}
+.desc li p{
+    font-size: 30px;
+}
+
+
+@media (max-width:690px) {
+    .desc {
+        flex-direction:column ;
+    }
+
+    .desc li:nth-child(2){
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+    .desc li:nth-child(3){
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+}
